@@ -1,0 +1,64 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#banner {
+    background-image: url(images/donation7.jpg);
+    color: white;
+    text-align: center;
+    padding: 10% 30%;
+    background-repeat: no-repeat;
+
+}
+
+#banner img {
+    width: cover;
+    background-repeat: no-repeat;
+}
+
+.button {
+    text-decoration: none;
+    background-color: tomato;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 25px;
+}
+
+#banner h1 {
+    font-weight: bolder;
+}
+
+#donate {
+    text-align: center;
+    margin: 10%;
+
+}
+
+#amount {
+    display: flex;
+    text-align: center;
+}
+
+#selected {
+    background-color: rgba(255, 99, 71, 0.336);
+    border-style: solid;
+    border-color: rgba(255, 99, 71, 0.616);
+}
+
+#amount div {
+    padding: 4%;
+    margin: 5%;
+    font-weight: bold;
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.171);
+    border-radius: 5px;
+}
+
+form input {
+    width: 50%;
+    padding: 20px;
+    margin: 5%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.274);
+    text-align: center;
+}
