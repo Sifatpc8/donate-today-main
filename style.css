@@ -12,7 +12,7 @@ body {
 }
 
 #banner img {
-    width: cover;
+    width: 100vw;
     background-repeat: no-repeat;
 }
 
@@ -28,9 +28,9 @@ body {
     font-weight: bolder;
 }
 
-#donate {
+.donate {
     text-align: center;
-    margin: 10%;
+    margin: 5%;
 
 }
 
@@ -61,4 +61,36 @@ form input {
     border: none;
     border-bottom: 2px solid rgba(0, 0, 0, 0.274);
     text-align: center;
+}
+
+.plan {
+    display: flex;
+
+
+}
+
+
+#food {
+    margin: 3%;
+    padding: 15px;
+    background-color: rgba(172, 219, 238, 0.445);
+    border-radius: 3%;
+}
+
+#shelter {
+
+    margin: 3%;
+
+    padding: 15px;
+    background-color: rgba(226, 125, 107, 0.596);
+    border-radius: 3%;
+}
+
+#education {
+
+    margin: 3%;
+
+    background-color: rgba(245, 245, 101, 0.534);
+    padding: 15px;
+    border-radius: 3%;
 }
